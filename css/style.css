@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+    background-color: #3F0071 !important;
+  }
+  .main{
+    min-height: 100vh;
+  }
+  .container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    display: block;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.5em;
+
+  }
+  input{
+    border-color: transparent;
+    outline-color: transparent;
+  }
+  .password button{
+    background-color: transparent;
+    border-color: transparent;
+    outline-color: transparent;
+  }
+  .pass,.email,.re{
+    border-bottom: 2px solid rgb(183, 183, 183);
+  }
+  .email{
+    width: 100%;
+  }
+  .sub{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding: 2px 15px;
+  }
+
+  @media (max-width:676px) and (min-width:364px) {
+    form{
+      font-size: 1.3em;
+    }
+    
+  }
+  @media (max-width:364px) {
+    form{
+      font-size: 1em;
+    }
+  
+    
+  }
